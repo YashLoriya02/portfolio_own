@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* OS-inspired Desktop Theme */
+    --background: 220 25% 12%;
+    --foreground: 210 20% 98%;
+
+    /* Window Surface Colors */
+    --card: 220 20% 18%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 220 20% 18%;
+    --popover-foreground: 210 20% 98%;
+
+    /* Primary - Vibrant Blue Accent */
+    --primary: 217 91% 60%;
+    --primary-foreground: 210 20% 98%;
+
+    /* Secondary - Subtle Purple */
+    --secondary: 270 50% 50%;
+    --secondary-foreground: 210 20% 98%;
+
+    /* Muted - Window Chrome */
+    --muted: 220 20% 25%;
+    --muted-foreground: 210 15% 70%;
+
+    /* Accent - Green Success */
+    --accent: 142 76% 36%;
+    --accent-foreground: 210 20% 98%;
+
+    /* Destructive - Red Close Button */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 20% 98%;
+
+    /* Borders and Inputs */
+    --border: 220 20% 30%;
+    --input: 220 20% 22%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.75rem;
+
+    /* Desktop Specific */
+    --desktop-gradient-start: 220 30% 8%;
+    --desktop-gradient-end: 240 40% 15%;
+    
+    /* Window Glass Effect */
+    --window-glass: 220 20% 18% / 0.85;
+    --window-border: 220 20% 35% / 0.5;
+    
+    /* Dock */
+    --dock-bg: 220 20% 15% / 0.7;
+    
+    /* Titlebar */
+    --titlebar-bg: 220 20% 22%;
+    --titlebar-hover: 220 20% 28%;
+
+    --sidebar-background: 220 20% 18%;
+    --sidebar-foreground: 210 20% 98%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 210 20% 98%;
+    --sidebar-accent: 220 20% 25%;
+    --sidebar-accent-foreground: 210 20% 98%;
+    --sidebar-border: 220 20% 30%;
+    --sidebar-ring: 217 91% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
