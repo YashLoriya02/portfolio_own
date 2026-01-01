@@ -3,18 +3,19 @@ import { Folder, FolderOpen, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Summarizer-CLI ",
+    title: "Portfolio Builder - No-Code Portfolio Generator",
     description:
-      "Developed an npm CLI tool utilizing Large Language Models (LLMs) to instantly summarize code files, functions, and custom prompts directly from the terminal. Integrated features such as automatic function extraction, syntax highlighting, and multiple export formats to streamline developer code reviews and documentation.",
-    tech: ["NPM", "Node.js", "LLM", "RegExp"],
-    github: "https://github.com/YashLoriya02/npm-summarizer-cli",
-  },
-  {
-    title: "Video Conferencing Platform",
-    description:
-      "Built a real-time video conferencing application featuring secure user authentication via Clerk and high-quality video transmission using Stream SDK. Designed an intuitive interface with meeting controls and room management, ensuring low-latency communication.",
-    tech: ["Next.js", "TypeScript", "Clerk", "Tailwind", "Stream"],
-    github: "https://github.com/YashLoriya02/meeting-nextjs",
+      "Built a no-code web application that enables users to create professional portfolio websites in minutes by simply uploading their resume. Integrated AI-powered resume parsing using Gemini to automatically extract and populate portfolio content, with ready-to-use templates and one-click publishing capabilities.",
+    tech: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "NextAuth",
+      "Gemini API",
+      "GitHub API",
+    ],
+    github: "https://github.com/YashLoriya02/portfolio-builder",
   },
   {
     title: "Google Drive Clone",
@@ -29,6 +30,35 @@ const projects = [
       "MongoDB",
     ],
     github: "https://github.com/YashLoriya02/storage-management",
+  },
+  {
+    title: "Summarizer-CLI ",
+    description:
+      "Developed an npm CLI tool utilizing Large Language Models (LLMs) to instantly summarize code files, functions, and custom prompts directly from the terminal. Integrated features such as automatic function extraction, syntax highlighting, and multiple export formats to streamline developer code reviews and documentation.",
+    tech: ["NPM", "Node.js", "LLM", "RegExp"],
+    github: "https://github.com/YashLoriya02/npm-summarizer-cli",
+  },
+  {
+    title: "End-To-End Code Migration From React (Web) to React-Native (App)",
+    description:
+      "Designed an AI-assisted end-to-end code migration system to convert React web applications into React Native mobile apps. Leveraged LLMs and GitHub API to analyze repositories, generate platform-specific components, and preserve business logic while reducing manual migration effort.",
+    tech: [
+      "Tailwind CSS",
+      "Next.js",
+      "TypeScript",
+      "Express.js",
+      "Github API",
+      "Prompts",
+      "LLM",
+    ],
+    github: "https://github.com/YashLoriya02/code_conversion",
+  },
+  {
+    title: "Video Conferencing Platform",
+    description:
+      "Built a real-time video conferencing application featuring secure user authentication via Clerk and high-quality video transmission using Stream SDK. Designed an intuitive interface with meeting controls and room management, ensuring low-latency communication.",
+    tech: ["Next.js", "TypeScript", "Clerk", "Tailwind", "Stream"],
+    github: "https://github.com/YashLoriya02/meeting-nextjs",
   },
   {
     title: "Indian Dialect Translator",
@@ -57,21 +87,6 @@ const projects = [
       "Built an offline-first task management application optimized for reliability and performance, allowing users to create, update, and sync tasks seamlessly without internet access. Implemented local persistence with SQLite, background syncing, and state management using BLoC architecture for scalable Flutter development.",
     tech: ["Docker", "Flutter", "TypeScript", "Express.js", "SQLite", "BLoC"],
     github: "https://github.com/YashLoriya02/offline_first_task_app",
-  },
-  {
-    title: "End-To-End Code Migration From React (Web) to React-Native (App)",
-    description:
-      "Designed an AI-assisted end-to-end code migration system to convert React web applications into React Native mobile apps. Leveraged LLMs and GitHub API to analyze repositories, generate platform-specific components, and preserve business logic while reducing manual migration effort.",
-    tech: [
-      "Tailwind CSS",
-      "Next.js",
-      "TypeScript",
-      "Express.js",
-      "Github API",
-      "Prompts",
-      "LLM",
-    ],
-    github: "https://github.com/YashLoriya02/code_conversion",
   },
 ];
 
@@ -103,8 +118,8 @@ export const ProjectsWindow = () => {
                   type="button"
                   onClick={() => setSelectedIndex(index)}
                   className={`w-full flex items-center gap-2 px-3 py-2 text-left text-xs border-b border-border/40 last:border-b-0 transition-all ${isActive
-                      ? "bg-primary/10 text-foreground"
-                      : "hover:bg-muted/40 text-muted-foreground"
+                    ? "bg-primary/10 text-foreground"
+                    : "hover:bg-muted/40 text-muted-foreground"
                     }`}
                 >
                   {isActive ? (
