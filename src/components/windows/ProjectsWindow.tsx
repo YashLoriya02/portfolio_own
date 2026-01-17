@@ -3,7 +3,7 @@ import { Folder, FolderOpen, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Portfolio Builder - No-Code Portfolio Generator",
+    title: "Portfolio Builder",
     description:
       "Built a no-code web application that enables users to create professional portfolio websites in minutes by simply uploading their resume. Integrated AI-powered resume parsing using Gemini to automatically extract and populate portfolio content, with ready-to-use templates and one-click publishing capabilities.",
     tech: [
@@ -32,14 +32,20 @@ const projects = [
     github: "https://github.com/YashLoriya02/storage-management",
   },
   {
-    title: "Summarizer-CLI ",
+    title: "AI Resume Analyzer",
     description:
-      "Developed an npm CLI tool utilizing Large Language Models (LLMs) to instantly summarize code files, functions, and custom prompts directly from the terminal. Integrated features such as automatic function extraction, syntax highlighting, and multiple export formats to streamline developer code reviews and documentation.",
-    tech: ["NPM", "Node.js", "LLM", "RegExp"],
-    github: "https://github.com/YashLoriya02/npm-summarizer-cli",
+      "Developed an AI-powered resume analysis tool that provides instant, comprehensive feedback on resumes. Leverages LLM technology to evaluate content quality, suggest improvements, identify skill gaps, and generate ATS optimization scores. Features document categorization, real-time parsing, and personalized career recommendations to help job seekers enhance their applications.",
+    tech: [
+      "React.js",
+      "React Router",
+      "Tailwind CSS",
+      "Puter",
+      "Zustand",
+    ],
+    github: "https://github.com/YashLoriya02/ai-resume-analyzer",
   },
   {
-    title: "End-To-End Code Migration From React (Web) to React-Native (App)",
+    title: "End-To-End Code Migration Tool",
     description:
       "Designed an AI-assisted end-to-end code migration system to convert React web applications into React Native mobile apps. Leveraged LLMs and GitHub API to analyze repositories, generate platform-specific components, and preserve business logic while reducing manual migration effort.",
     tech: [
@@ -54,11 +60,11 @@ const projects = [
     github: "https://github.com/YashLoriya02/code_conversion",
   },
   {
-    title: "Video Conferencing Platform",
+    title: "Summarizer-CLI ",
     description:
-      "Built a real-time video conferencing application featuring secure user authentication via Clerk and high-quality video transmission using Stream SDK. Designed an intuitive interface with meeting controls and room management, ensuring low-latency communication.",
-    tech: ["Next.js", "TypeScript", "Clerk", "Tailwind", "Stream"],
-    github: "https://github.com/YashLoriya02/meeting-nextjs",
+      "Developed an npm CLI tool utilizing Large Language Models (LLMs) to instantly summarize code files, functions, and custom prompts directly from the terminal. Integrated features such as automatic function extraction, syntax highlighting, and multiple export formats to streamline developer code reviews and documentation.",
+    tech: ["NPM", "Node.js", "LLM", "RegExp"],
+    github: "https://github.com/YashLoriya02/npm-summarizer-cli",
   },
   {
     title: "Indian Dialect Translator",
@@ -68,11 +74,11 @@ const projects = [
     github: "https://github.com/YashLoriya02/Dialect_Translation",
   },
   {
-    title: "AstroAI - Astronomy RAG Chatbot",
+    title: "Video Conferencing Platform",
     description:
-      "AstroAI is an AI-powered chatbot built using Retrieval-Augmented Generation (RAG) to provide informative, factual, and contextual answers in the field of astronomy and space science. It includes streaming responses, prompt control, and basic identity filtering.",
-    tech: ["Tailwind CSS", "React.js", "Vite", "LLM", "RAG Model"],
-    github: "https://github.com/YashLoriya02/AstroAI",
+      "Built a real-time video conferencing application featuring secure user authentication via Clerk and high-quality video transmission using Stream SDK. Designed an intuitive interface with meeting controls and room management, ensuring low-latency communication.",
+    tech: ["Next.js", "TypeScript", "Clerk", "Tailwind", "Stream"],
+    github: "https://github.com/YashLoriya02/meeting-nextjs",
   },
   {
     title: "Health Management Platform",
@@ -80,6 +86,13 @@ const projects = [
       "Developed a comprehensive health management system enabling users to track medical records, appointments, and health metrics in one place. Implemented secure authentication, role-based access, and real-time data updates using Appwrite, ensuring data privacy and a smooth user experience.",
     tech: ["Tailwind CSS", "Next.js", "TypeScript", "Appwrite"],
     github: "https://github.com/YashLoriya02/health_management",
+  },
+  {
+    title: "AstroAI - Astronomy RAG Chatbot",
+    description:
+      "AstroAI is an AI-powered chatbot built using Retrieval-Augmented Generation (RAG) to provide informative, factual, and contextual answers in the field of astronomy and space science. It includes streaming responses, prompt control, and basic identity filtering.",
+    tech: ["Tailwind CSS", "React.js", "Vite", "LLM", "RAG Model"],
+    github: "https://github.com/YashLoriya02/AstroAI",
   },
   {
     title: "Offline First Task Manager App",
