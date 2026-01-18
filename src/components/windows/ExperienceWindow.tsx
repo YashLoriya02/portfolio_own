@@ -9,7 +9,7 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company: "Freelancing",
-    period: "Jan 2024 - June 2024",
+    period: "Feb 2024 - August 2024",
     description: "Collaborated with a team of 5 developers to deliver 3 robust full-stack web applications for clients. Optimized frontend performance and backend latency, ensuring seamless user experiences across devices. Translated client requirements into technical specifications and delivered features within strict deadlines.",
     color: "bg-primary/10 border-primary",
   },
