@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Portfolio Builder",
     description:
-      "Built a no-code web application that enables users to create professional portfolio websites in minutes by simply uploading their resume. Integrated AI-powered resume parsing using Gemini to automatically extract and populate portfolio content, with ready-to-use templates and one-click publishing capabilities.",
+      "Built a web application that enables users to create professional portfolio websites in minutes by simply uploading their resume. Integrated AI-powered resume parsing using Gemini to automatically extract and populate portfolio content, with ready-to-use templates and one-click publishing capabilities.",
     tech: [
       "Next.js",
       "React",
