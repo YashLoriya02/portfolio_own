@@ -18,7 +18,7 @@ const projects = [
     github: "https://github.com/YashLoriya02/portfolio-builder",
   },
   {
-    title: "Skribble — Multiplayer Drawing & Guessing Game",
+    title: "Skribble - Multiplayer Drawing & Guessing Game",
     description:
         "Built a real-time multiplayer drawing and guessing game inspired by skribbl.io, enabling players to create or join rooms, draw collaboratively on a live canvas, and guess words through synchronized chat. Implemented low-latency real-time communication using WebSockets, ensuring smooth drawing synchronization, turn-based gameplay, live scoring, and room-based multiplayer interactions.",
     tech: [
